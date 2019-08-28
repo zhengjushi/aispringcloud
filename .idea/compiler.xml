@@ -9,11 +9,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="hystrix" />
         <module name="zuul" />
-        <module name="nativeconfigserver" />
+        <module name="ribbon" />
         <module name="resttemplate" />
         <module name="feign" />
         <module name="nativeconfigclient" />
-        <module name="ribbon" />
+        <module name="nativeconfigserver" />
         <module name="eurekaserver" />
         <module name="consumer" />
         <module name="eurekaclient" />
