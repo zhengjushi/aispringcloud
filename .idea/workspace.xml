@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="980dd3e1-b290-4fb4-9ac4-a53e6a7c5c11" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../juju-homepage-spring-cloud" beforeDir="false" afterPath="$PROJECT_DIR$/../juju-homepage-spring-cloud" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,6 +17,7 @@
     <ignored path="$PROJECT_DIR$/hystrix/target/" />
     <ignored path="$PROJECT_DIR$/nativeconfigserver/target/" />
     <ignored path="$PROJECT_DIR$/nativeconfigclient/target/" />
+    <ignored path="$PROJECT_DIR$/configserver/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,15 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nativeconfigserver/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="13" selection-start-line="13" selection-end-line="19" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nativeconfigserver/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
@@ -49,16 +42,25 @@
         <entry file="file://$PROJECT_DIR$/nativeconfigserver/src/main/resources/shared/configclient-dev.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="52">
-              <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/configclient.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="8" column="22" selection-end-line="8" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/configclient.yml">
+        <entry file="file://$PROJECT_DIR$/configserver/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="22" lean-forward="true" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="468">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -194,6 +196,7 @@
         <option value="$PROJECT_DIR$/nativeconfigclient/src/main/java/com/juju/NativeConfigClientApplication.java" />
         <option value="$PROJECT_DIR$/nativeconfigclient/src/main/java/com/juju/controller/NativeConfigController.java" />
         <option value="$PROJECT_DIR$/config/configclient.yml" />
+        <option value="$PROJECT_DIR$/configserver/pom.xml" />
       </list>
     </option>
   </component>
@@ -222,11 +225,6 @@
             <path>
               <item name="aispringcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="aispringcloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aispringcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aispringcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -370,7 +368,7 @@
       <workItem from="1566834283305" duration="653000" />
       <workItem from="1566866886020" duration="1802000" />
       <workItem from="1566870071852" duration="7832000" />
-      <workItem from="1566989115618" duration="592000" />
+      <workItem from="1566989115618" duration="834000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1566908294468</created>
@@ -390,13 +388,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51046000" />
+    <option name="totallyTimeSpent" value="51288000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20959735" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20959735" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -476,16 +473,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="new" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/eurekaclient/src/main/java/com/juju/repository/StudentRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eurekaclient/src/main/java/com/juju/repository/impl/StudentRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -905,14 +892,21 @@
     <entry file="file://$PROJECT_DIR$/nativeconfigserver/src/main/resources/shared/configclient-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
-          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/configclient.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
-          <caret line="8" column="22" lean-forward="true" selection-end-line="8" selection-end-column="22" />
+          <caret line="8" column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configserver/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
         </state>
       </provider>
     </entry>
